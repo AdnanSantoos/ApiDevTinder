@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const routes =  require('./routes')
 const server = express();
 
-mongoose.connect('mongodb+srv://adnanpinho:montesiao123bob@autenticacertificado-hb7bi.mongodb.net/dblab?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://adnanpinho:<senhaaaa>@autenticacertificado-hb7bi.mongodb.net/dblab?retryWrites=true&w=majority',{
     useNewUrlParser:true
 });
 
